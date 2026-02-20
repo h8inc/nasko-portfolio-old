@@ -7,12 +7,6 @@
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
-[[redirects]]
-  from = "/trading212-portfolio-health/*"
-  to = "https://trading212-portfolio-health.netlify.app/:splat"
-  status = 200
-  force = true
-
 # SPA redirect - serve index.html for all routes
 [[redirects]]
   from = "/*"
